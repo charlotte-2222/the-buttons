@@ -2,12 +2,13 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Press the Button</title>
 
-    <script src="Num.js">
+    <script src="js/Num.js">
 
     </script>
-
+    <script src="https://kit.fontawesome.com/d8f1ffd33e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
@@ -39,8 +40,7 @@
                     <div class="post">
                         <div class="post-preview">
                             <h6 class="post-title">Count: <span id="charNum">0</span></h6>
-                            <textarea id="myTextArea" onkeyup="countChars(this)">
-                                Feed me letters :)
+                            <textarea id="myTextArea" onkeyup="countChars(this)">Feed me letters :)
                             </textarea>
                             <script src="https://code.jquery.com/jquery-2.2.3.min.js" type="text/javascript"></script>
                         </div>
@@ -48,6 +48,29 @@
                 </div>
             </div>
         </div>
+
+
+
+    <div class="main-container">
+        <h4 style="text-align: center;">Inspiration :D</h4>
+        <div class="post-wrapper">
+            <div class="post">
+                <div class="post-preview">
+                    <img id="inspiration"
+                         alt="ahhh"
+                         src=images/tran.png>
+                </div>
+                <input id="imageLinkContent" type="text"/>
+                <button id="copyButton">
+                    <i class="fa-solid fa-copy"></i>
+                </button>
+                <script src="js/insp.js"></script>
+        </div> <button id="ref" onclick="history.go(0);"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+
+    </div>
+
+
 
     <section class="s2">
         <footer class="main-container2">

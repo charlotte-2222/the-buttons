@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="jquery-2.2.3" level="application" />
+    <orderEntry type="library" name="d8f1ffd33e" level="application" />
   </component>
 </module>
