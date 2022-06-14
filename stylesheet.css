@@ -1,0 +1,95 @@
+:root{
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+
+    --borderColor: #c1c1c1;
+
+    --mainText:black;
+    --secondaryText: #4b5156;
+
+    --previewBg: rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
+
+    --buttonColor:black;
+
+}
+html, body{
+    padding:0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,strong{
+    color:var(--mainText);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+p,li,span,label, input, textarea{
+    color: var(--secondaryText);
+    font-family: 'Lora', serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: #17a2b8;
+
+}
+
+h1{font-size: 56px;}
+h2{font-size: 36px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 20px;}
+h6{font-size: 16px;}
+
+.s1{
+    border-radius: 5px 5px 0 0;
+    grid-area: nav-wrapper;
+    border-bottom: 1px solid var(--borderColor);
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--mainColor);
+}
+
+.buttonInc{
+    transition-duration: 0.20s;
+    background-color: #b48ae8;
+    color: white;
+    border:2px solid black;
+    padding: 16px 32px;
+    display: inline-block;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buttonInc:hover{
+    background-color: aquamarine;
+    color: lightpink;
+}
+
+
+
+.main-container{
+    text-align: center;
+}
+
+.center{
+    padding-top: 50px;
+    text-align: center;
+}
+@media only screen and (max-width: 500px) {
+    .hehe{
+        display: inline-flex;
+    }
+    .s1{
+        display: inline-block;
+        width: 100%
+    }
+    .center{
+        display: inline-block;
+        padding: 0;
+    }
+
+}
