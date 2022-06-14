@@ -126,6 +126,12 @@ h6{font-size: 16px;}
     overflow-y: hidden;
 }
 
+#oh{
+    width: 50px;
+}
+#oo{
+    width: 50px;
+}
 
 @media only screen and (max-width: 500px) {
     .hehe{
