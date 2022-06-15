@@ -139,11 +139,21 @@ h6{font-size: 16px;}
     }
     .s1{
         display: inline-block;
-        width: 100%
+        width: auto;
+        gap: 10px;
+
     }
     .center{
-        display: inline-block;
-        padding: 0;
+        text-align: center;
+        gap: 50px;
+        justify-content: center;
+        padding: 75px
+    }
+    #main1{
+
+    }
+    #inspiration{
+        width: 80%;
     }
 
 }

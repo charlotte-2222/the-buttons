@@ -21,6 +21,10 @@ function countChars(obj){
 
 }
 
+function eraseText() {
+    document.getElementById("myTextArea").value = "";
+}
+
 $(function() {
     $('#myTextArea').on('input keyup paste', function() {
         var $el = $(this),
@@ -36,3 +40,4 @@ $(function() {
         }
     });
 });
+

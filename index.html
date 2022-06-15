@@ -12,17 +12,18 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
+
     <h1 class="hehe">I need a button.</h1>
     <div class="center">
         <section class="s1">
-            <div class="main-container">
+            <div id = "main1" class="main-container">
                 <h3 style="text-align: center; line-height: 0;" id="incrementText">0</h3>
                 <button class="buttonInc" onclick="incrementBtn()">Click plz</button>
             </div>
         </section>
 
         <section class="s1">
-            <div class="main-container">
+            <div id = "main2" class="main-container">
                 <h3 style="text-align: center; line-height: 0;" id="decrementText">0</h3>
                 <button class="buttonInc" onclick="decrementBtn()">Click plz</button>
             </div>
@@ -40,7 +41,7 @@
                     <div class="post">
                         <div class="post-preview">
                             <h6 class="post-title">Count: <span id="charNum">0</span></h6>
-                            <textarea id="myTextArea" onkeyup="countChars(this)">Feed me letters :)
+                            <textarea id="myTextArea"  onclick="eraseText()"  onkeyup="countChars(this)">Feed me letters :)
                             </textarea>
                             <script src="https://code.jquery.com/jquery-2.2.3.min.js" type="text/javascript"></script>
                         </div>
@@ -62,14 +63,13 @@
                 </div>
                 <input id="imageLinkContent" type="text"/>
                 <button id="copyButton">
-                    <i class="fa-solid fa-copy"></i>
+                    <i class="fa-solid fa-copy"> Copy </i>
                 </button>
                 <script src="js/insp.js"></script>
-        </div> <button id="ref" onclick="history.go(0);"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div> <button id="ref" onclick="history.go(0);"><i class="fa-solid fa-arrows-rotate"> Regen </i></button>
         </div>
 
     </div>
-
 
 
 
@@ -100,8 +100,6 @@
                 <div class="post-preview">
 
                         <i id='oo' class="fa-brands fa-twitter"></i>
-                        </i>
-
                 </div>
             </div>
         </div>
@@ -111,13 +109,38 @@
 
 
 
+    <div class="main-container">
+            <div class="post-wrapper">
+                <div class="post">
+                    <h4 style="text-align: center;">My Playlist</h4>
+                    <div class="post-preview">
+
+                        <iframe style="border-radius:12px"
+                                src="https://open.spotify.com/embed/playlist/16f4MmNxlQtbKvpJsjka5z?utm_source=generator"
+                                width="100%" height="380" frameBorder="0"
+                                allowfullscreen=""
+                                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+
     <section class="s2">
         <footer class="main-container2">
+            <h6 style="text-align: center">
+                a really bad Charlotte product
+            </h6>
             <p class="left-column">
                 <a href="https://github.com/charlotte-2222">
                     <img alt="build badge" src="http://ForTheBadge.com/images/badges/built-with-love.svg">
                 </a>
             </p>
+
+
         </footer>
     </section>
 </body>
