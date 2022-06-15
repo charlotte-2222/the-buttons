@@ -1,3 +1,7 @@
+var incrementText = window.localStorage.getItem('incrementText')||0;
+var decrementText = window.localStorage.getItem('decrementText')||0;
+
+
 function incrementBtn(){
     var element=document.getElementById('incrementText');
     var value=element.innerHTML;
@@ -5,6 +9,7 @@ function incrementBtn(){
     ++value
     console.log(value)
     document.getElementById('incrementText').innerHTML=value;
+    window.localStorage.setItem('incrementText', incrementText);
 }
 
 function decrementBtn(){
@@ -14,6 +19,7 @@ function decrementBtn(){
     --value
     console.log(value)
     document.getElementById('decrementText').innerHTML=value;
+    window.localStorage.setItem('decrementText', decrementText);
 }
 
 function countChars(obj){
