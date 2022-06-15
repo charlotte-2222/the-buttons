@@ -1,4 +1,5 @@
 
+
 :root{
     --mainColor: #ffcae8;
     --secondaryColor: rgba(86, 79, 79, 0.33);
@@ -44,6 +45,23 @@ h3{font-size: 28px;}
 h4{font-size: 24px;}
 h5{font-size: 20px;}
 h6{font-size: 16px;}
+
+.hehe{
+    color: rgba(9, 18, 24, 0.62);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d5f8ed, 0 0 40px #ffcae8, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #2e81ff, 0 0 40px #b690ea, 0 0 50px #ffcae8, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
 
 .s1{
     border-radius: 5px 5px 0 0;
@@ -130,6 +148,7 @@ h6{font-size: 16px;}
     width: 250px;
     min-height: 35px;
     overflow-y: hidden;
+    resize: none;
 }
 
 #oh{
