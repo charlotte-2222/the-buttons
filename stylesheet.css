@@ -1,8 +1,9 @@
+
 :root{
     --mainColor: #ffcae8;
     --secondaryColor: rgba(86, 79, 79, 0.33);
 
-    --borderColor: #c1c1c1;
+    --borderColor: rgba(67, 66, 70, 0.19);
 
     --mainText:black;
     --secondaryText: #4b5156;
@@ -16,6 +17,7 @@
 html, body{
     padding:0;
     margin: 0;
+    background: linear-gradient(0deg, #f1f0f5 50%, #e79e9e 100%); /* W3C */
 }
 h1,h2,h3,h4,h5,h6,strong{
     color:var(--mainText);
@@ -26,6 +28,7 @@ h1,h2,h3,h4,h5,h6,strong{
 p,li,span,label, input, textarea{
     color: var(--secondaryText);
     font-family: 'Lora', serif;
+
 
 }
 
@@ -49,7 +52,9 @@ h6{font-size: 16px;}
     display: inline-block;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--mainColor);
+    background: linear-gradient(0deg, #fd7fee 50%, #b9b9b9 100%); /* W3C */
+    color: #eae9e9;
+
 }
 
 .buttonInc{
@@ -65,14 +70,15 @@ h6{font-size: 16px;}
 }
 
 .buttonInc:hover{
-    background-color: aquamarine;
-    color: lightpink;
+    background: linear-gradient(0deg, #c2efc6 50%, #b9b9b9 100%); /* W3C */
+    color: #091218;
 }
 
 
 
 .main-container{
     text-align: center;
+
 }
 
 .center{
@@ -81,7 +87,7 @@ h6{font-size: 16px;}
 }
 
 .s2{
-    background-color: var(--secondaryColor);
+    background: linear-gradient(0deg, #c9adf1 50%, #e79e9e 100%); /* W3C */
     border-bottom: 1px solid var(--borderColor);
     overflow: auto;
 }
@@ -131,6 +137,18 @@ h6{font-size: 16px;}
 }
 #oo{
     width: 50px;
+}
+
+#social-1{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+#social-2{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
 }
 
 @media only screen and (max-width: 500px) {

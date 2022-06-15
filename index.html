@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Press the Button</title>
-
     <script src="js/Num.js">
-
-    </script>
     <script src="https://kit.fontawesome.com/d8f1ffd33e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 </head>
 <body>
 
@@ -62,67 +60,29 @@
                          src=images/tran.png>
                 </div>
                 <input id="imageLinkContent" type="text"/>
-                <button id="copyButton">
-                    <i class="fa-solid fa-copy"> Copy </i>
-                </button>
+                <button style="height: auto; padding:10px"
+                        class="buttonInc"
+                        id="copyButton">Copy</button>
                 <script src="js/insp.js"></script>
-        </div> <button id="ref" onclick="history.go(0);"><i class="fa-solid fa-arrows-rotate"> Regen </i></button>
+        </div> <button style="width: 50%; padding:10px"
+                class="buttonInc"
+                id="ref"
+                onclick="history.go(0);">Regen</button>
         </div>
-
     </div>
 
 
-
-
-    <div class="main-container">
-        <a href="https://github.com/charlotte-2222">
-        <div class="post-wrapper">
-            <div class="post">
-                <h5 style="text-align: center;">GitHub</h5>
-                <div class="post-preview">
-
-                        <i id='oh' class="fa-brands fa-github">
-                        </i>
-
-                </div>
-            </div>
-        </div>
-        </a>
-
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-        <a href="https://twitter.com/Charlotte_cjc">
-        <div class="post-wrapper">
-            <div class="post">
-
-                <h5 style="text-align: center;">Twitter</h5>
-
-                <div class="post-preview">
-
-                        <i id='oo' class="fa-brands fa-twitter"></i>
-                </div>
-            </div>
-        </div>
-        </a>
-
-    </div>
 
 
 
     <div class="main-container">
             <div class="post-wrapper">
-                <div class="post">
                     <h4 style="text-align: center;">My Playlist</h4>
-                    <div class="post-preview">
-
                         <iframe style="border-radius:12px"
                                 src="https://open.spotify.com/embed/playlist/16f4MmNxlQtbKvpJsjka5z?utm_source=generator"
-                                width="100%" height="380" frameBorder="0"
+                                width="100%" height="380"
                                 allowfullscreen=""
                                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-                    </div>
-                </div>
             </div>
     </div>
 
@@ -138,7 +98,18 @@
                 <a href="https://github.com/charlotte-2222">
                     <img alt="build badge" src="http://ForTheBadge.com/images/badges/built-with-love.svg">
                 </a>
+                <a href ="https://twitter.com/Charlotte_cjc">
+                    <img id="social-1"
+                         alt="twitter"
+                         src="images/twitter_2.png">
+                </a>
+                <a href ="https://github.com/charlotte-2222">
+                    <img id="social-2"
+                         alt="github"
+                         src="images/github_1.png">
+                </a>
             </p>
+
 
 
         </footer>
