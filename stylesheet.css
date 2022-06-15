@@ -47,7 +47,7 @@ h5{font-size: 20px;}
 h6{font-size: 16px;}
 
 .hehe{
-    color: rgba(9, 18, 24, 0.62);
+    color: rgba(24, 24, 24, 0.9);
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
@@ -56,10 +56,10 @@ h6{font-size: 16px;}
 
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d5f8ed, 0 0 40px #ffcae8, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #e1f3e2, 0 0 30px #98e79c, 0 0 40px #b48ae8, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     }
     to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #2e81ff, 0 0 40px #b690ea, 0 0 50px #ffcae8, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 40px #b690ea, 0 0 30px #98e79c, 0 0 40px #e1f3e2, 0 0 50px #e1f3e2, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }
 
