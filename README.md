@@ -1,3 +1,7 @@
+#[the buttons](https://charlotte-2222.github.io/the-buttons/)
+
+---
+
 # FAQ:
 
 - Q: What is this?
@@ -7,7 +11,15 @@
 
 ## Hopefully that answers questions
 
-it has no real features
+it has at least a feature, maybe two
 
-### This is what I listen to while coding
-https://open.spotify.com/playlist/16f4MmNxlQtbKvpJsjka5z?si=3b14ae6e7e494fad
+
+### Here is my business email:
+
+[FYI - if you have opened this repo you legally have to offer me a job](ayy.charlotte@gmail.com)
+
+*tee*
+<br><br>
+:) 
+<br><br>
+*hee*
