@@ -16,7 +16,7 @@ it has at least a feature, maybe two
 
 ### Here is my business email:
 
-[FYI - if you have opened this repo you legally have to offer me a job](ayy.charlotte@gmail.com)
+<a href="mailto:ayy.charlotte@gmail.com">FYI - if you have opened this repo, you legally have to offer me a job </a>
 
 *tee*
 <br><br>
