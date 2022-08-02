@@ -14,6 +14,47 @@
 <body>
 
     <h1 class="hehe">I need a button.</h1>
+
+    <a id="profilePicture" href="#popup">
+        <img src="https://raw.githubusercontent.com/charlotte-2222/random-images/main/charlotte%20comission%5B1062%5D.png" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+        <div class="popup">
+            <div class="popup-photo">
+                <a href="https://raw.githubusercontent.com/charlotte-2222/random-images/main/charlotte%20comission%5B1062%5D.png" target="_blank">
+                    <img src="https://raw.githubusercontent.com/charlotte-2222/random-images/main/charlotte%20comission%5B1062%5D.png" alt="Profile Picture">
+                </a>
+            </div>
+            <div class="popup-quote">
+                Yes - this is a poorly designed website. That's the point.
+                Have fun, good luck,
+                don't forget to click the button.
+            </div>
+            <a class="popup-close" onclick="history.back()">&times;</a>
+        </div>
+    </div>
+
+    <div id="userName">
+        <a href ="https://twitter.com/Charlotte_cjc">
+            <img id="social-1"
+                 alt="twitter"
+                 src="images/twitter_2.png">
+        </a>
+        <a href ="https://github.com/charlotte-2222">
+            <img id="social-2"
+                 alt="github"
+                 src="images/github_1.png">
+        </a>
+        <a href ="https://charlotte-2222.github.io/links/">
+
+            <img id="social-3"
+                 alt="all my links"
+                 src="images/da_world.png">
+        </a>
+    </div>
+
+
     <div class="center">
         <section class="s1">
             <div id = "main1" class="main-container">
@@ -75,8 +116,6 @@
 
 
 
-
-
     <div class="main-container">
             <div class="post-wrapper">
                     <h4 style="text-align: center;">My Playlist</h4>
@@ -104,46 +143,27 @@
     </div>
 
 
-    <div class="main-container">
-
-        <div class="post-wrapper">
-            <iframe id='kofiframe' src='https://ko-fi.com/ayycharlotte/?hidefeed=true&widget=true&embed=true&preview=true'
-                    style='border:none;padding:3px;background:#f9f9f9;'
-                    width="350" height="500" title='ayycharlotte'></iframe>
-        </div>
-
-    </div>
-
-
-
-
-
     <section class="s2">
         <footer class="main-container2">
-            <h6 style="text-align: center">
-                a really bad Charlotte product
-            </h6>
-            <img alt ="chars pfp" id="myIcon" src="images/char_pfp_2.png"/>
-            <p class="left-column">
+            <h6 style="text-align: center">© 2022 Charlotte Childers - All Rights Reserved. I guess.
+                <br><br>
                 <a href="https://github.com/charlotte-2222">
-                    <img alt="build badge" src="https://ForTheBadge.com/images/badges/built-with-love.svg">
+                    <img alt="build badge" src="https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg">
+                    <br>
+                    <img alt="build badge" src="https://forthebadge.com/images/badges/powered-by-black-magic.svg">
                 </a>
-                <a href ="https://twitter.com/Charlotte_cjc">
-                    <img id="social-1"
-                         alt="twitter"
-                         src="images/twitter_2.png">
-                </a>
-                <a href ="https://github.com/charlotte-2222">
-                    <img id="social-2"
-                         alt="github"
-                         src="images/github_1.png">
-                </a>
-
-            </p>
-
-
-
+            </h6>
         </footer>
     </section>
 </body>
+<!--lol-->
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+    kofiWidgetOverlay.draw('ayycharlotte', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#323842',
+        'floating-chat.donateButton.text-color': '#fff'
+    });
+</script>
 </html>

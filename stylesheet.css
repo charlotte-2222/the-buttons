@@ -169,12 +169,143 @@ h6{font-size: 16px;}
     width: 30px;
     margin: 5px;
 }
+#social-3{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
 
 #myIcon{
     height: 75px;
     width: 75px;
     margin-top: -100px;
 }
+
+#profilePicture, #profilePicture img {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: 40px auto 20px;
+    border-radius: 50%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#userName {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: 'Karla', sans-serif;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*-------------------------popup------------------------*/
+/* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+}
+
+.popup {
+    position: relative;
+    top: -43%;
+    /* right: -100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    /* max-height: 500px; */
+    width: auto;
+    height: auto;
+    margin: 56px;
+    background-color: #fff;
+    /* transform: rotate(32deg); */
+    transform: scale(0);
+    transition: .5s ease-in-out;
+}
+
+.popup-quote {
+    font-family : Baskerville, Georgia, serif;
+    font-style : italic;
+    position: flex;
+    color: #fff;
+    padding: 20px;
+    background-color: #b579ea;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.popup-photo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.overlay:target .popup {
+    transform: scale(1);
+    top: 0;
+    /* right: 0; */
+    /* transform: rotate(0); */
+}
+
+.popup-close {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    border-radius: 100%;
+    background-color: #b579ea;
+    z-index: 4;
+    color: #fff;
+    line-height: 2.7rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+    .popup-close:hover {
+        background-color: #fff;
+        color: #b579ea;
+    }
+}
+
+.popup-close:active {
+    background-color: #fff;
+    color: #b579ea;
+}
+
 
 
 @media only screen and (max-width: 500px) {
